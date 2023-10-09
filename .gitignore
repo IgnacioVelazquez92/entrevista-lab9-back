@@ -1,0 +1,10 @@
+.env
+# Node.js
+node_modules/
+
+# Archivos de logs
+logs/
+*.log
+
+# Dependiendo de tu editor o IDE, puedes agregar los archivos generados por ellos
+.vscode/
