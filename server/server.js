@@ -12,11 +12,7 @@ const port = process.env.PORT;
 //Middleware
 app.use(express.json());
 app.use(morgan("dev"));
-app.use(
-  cors({
-    origin: "https://entrevista-lab9.netlify.app",
-  })
-);
+app.use(cors());
 
 //Rutas
 app.use("/user", userRoutes);
